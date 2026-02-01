@@ -1,0 +1,211 @@
+Here is a **single mixed set** of hands-on practice exercises (Easy + Medium + Advanced mixed together), based **ONLY** on the uploaded PDF. 
+
+---
+
+## Mixed Practice Exercises (Jupyter Notebook Tasks)
+
+1. **Create a string variable**
+
+   1. Create a variable named `can` and assign it the text `"soda"`.
+   2. Display `can` in the notebook output.
+   3. Print `can` using `print()`.
+
+2. **Reassign a variable**
+
+   1. Using the same `can` variable, change its value to `"beans"`.
+   2. Display `can` again.
+   3. Print `can` again.
+
+3. **Check the type of a variable**
+
+   1. Use `type()` on `can`.
+   2. Display the result.
+
+4. **Create an integer variable**
+
+   1. Create a variable `pizza` and assign it the value `100`.
+   2. Display `pizza`.
+   3. Check and display `type(pizza)`.
+
+5. **Create float and integer variables**
+
+   1. Create a variable `samosa` with value `20.5`.
+   2. Create a variable `ice_cream` with value `100`.
+   3. Display `samosa` and `ice_cream`.
+   4. Check and display the type of each variable.
+
+6. **Compute a total using variables**
+
+   1. Create a variable `total` equal to `pizza + samosa + ice_cream`.
+   2. Display `total`.
+   3. Check and display `type(total)`.
+
+7. **Create a boolean from a comparison**
+
+   1. Create a variable `above_thresold` equal to the expression `total > 200`.
+   2. Display `above_thresold`.
+   3. Check and display `type(above_thresold)`.
+
+8. **Write definitions as notebook markdown**
+
+   1. Add a Markdown cell.
+   2. Write a definition for **Integer** exactly as described in the PDF.
+   3. Write a definition for **Float** exactly as described in the PDF.
+   4. Write a definition for **String** exactly as described in the PDF.
+   5. Write a definition for **Boolean** exactly as described in the PDF.
+
+9. **Create one example for each data type**
+
+   1. Create one variable that is an integer (whole number, no decimal).
+   2. Create one variable that is a float (has a decimal point).
+   3. Create one variable that is a string (text).
+   4. Create one variable that is a boolean (True/False).
+   5. For each variable, display its value and its type using `type()`.
+
+10. **Demonstrate “Everything is an Object” via assignment**
+
+1) Create a variable `foo` with the string value `'jalebi'`.
+2) Display `foo`.
+3) Create `bar` by assigning it to `foo`.
+4) Display `bar`.
+
+11. **Compare object identity (ids)**
+
+1) Use `id(foo)` and display the result.
+2) Use `id(bar)` and display the result.
+3) Confirm by observation whether `foo` and `bar` initially point to the same object.
+
+12. **Reassign and re-check object identity**
+
+1) Reassign `bar` to the string `'samosa'`.
+2) Display `bar`.
+3) Display `id(bar)`.
+4) Display `foo` again.
+5) Display `id(foo)` again.
+6) Observe whether changing `bar` changed `foo`.
+
+13. **Reserved keyword naming error (intentional)**
+
+1) In a new cell, attempt to assign a number to `True` exactly in the format shown in the PDF.
+2) Run the cell to produce the error.
+3) Record the exact error message in a Markdown cell (copy it from the output).
+
+14. **Reserved keyword naming error with `def` (intentional)**
+
+1) In a new cell, attempt to assign a string to a variable named `def` exactly as shown in the PDF.
+2) Run the cell to produce the error.
+3) Record the exact error message in a Markdown cell.
+
+15. **Special character error with `$` (intentional)**
+
+1) In a new cell, attempt to create a variable named `$name` and assign a string exactly like the PDF.
+2) Run the cell to produce the error.
+3) Record the exact error message in a Markdown cell.
+
+16. **Special character error with `^` (intentional)**
+
+1) In a new cell, attempt to assign `100` to a variable name that includes `^` exactly like the PDF.
+2) Run the cell to produce the error.
+3) Record the exact error message in a Markdown cell.
+
+17. **Name starting with a number error (intentional)**
+
+1) In a new cell, attempt to assign a string to `4you` exactly as shown in the PDF.
+2) Run the cell to produce the error.
+3) Record the exact error message in a Markdown cell.
+
+18. **Another `$` naming error (intentional)**
+
+1) In a new cell, attempt to assign a string to `$address` exactly like the PDF.
+2) Run the cell to produce the error.
+3) Record the exact error message in a Markdown cell.
+
+19. **Invalid character in the middle (intentional)**
+
+1) In a new cell, attempt to assign `6` to `abc$xyz` exactly as shown in the PDF.
+2) Run the cell to produce the error.
+3) Record the exact error message in a Markdown cell.
+
+20. **Apply variable naming rule: begin with letter or underscore**
+
+1) Create one valid variable name that begins with an underscore `_` and assign it a value.
+2) Display the variable and its type.
+3) Create one valid variable name that begins with a letter and assign it a value.
+4) Display the variable and its type.
+
+21. **Apply variable naming rule: allowed remaining characters**
+
+1) Create three variables whose names include a mix of letters and digits (but do not start with a digit).
+2) Create three variables whose names include underscores `_`.
+3) Display each variable and its type.
+
+22. **Build a small “shopping total” workflow**
+
+1) Create variables for three items (one integer price, one float price, one integer price).
+2) Add them into a `total` variable.
+3) Create a boolean variable that checks whether your total is greater than `200`.
+4) Display the total and the boolean value.
+5) Display the types of both.
+
+23. **Reassignment impact on type**
+
+1) Create a variable with an integer value.
+2) Display its type.
+3) Reassign the same variable to a string value.
+4) Display its type again.
+5) Reassign the same variable to a float value.
+6) Display its type again.
+
+24. **Print vs direct display**
+
+1) Create a string variable with any text.
+2) Show it by placing the variable name alone in a cell.
+3) Show it again using `print()` in the same cell or a different cell.
+4) Note the difference in formatting by writing a short observation in Markdown (no explanation of why—just what you notice).
+
+25. **Object identity across multiple references**
+
+1) Create a string variable `foo` with any string value.
+2) Create `bar = foo`.
+3) Create `baz = foo`.
+4) Display `id(foo)`, `id(bar)`, and `id(baz)` each on separate lines/cells.
+5) Reassign only `bar` to a different string.
+6) Display the ids again for `foo`, `bar`, and `baz`.
+
+26. **Type-checking a computed expression**
+
+1) Create two numeric variables (one int, one float).
+2) Add them into a new variable.
+3) Display the result and its type.
+4) Create a boolean variable using a comparison on that result (greater than some number).
+5) Display the boolean and its type.
+
+27. **Create a “rules checklist” cell**
+
+1) Add a Markdown cell titled “Variable Naming Rules”.
+2) Write the four rules exactly as described in the PDF (paraphrase is allowed, but keep meaning identical).
+3) Under each rule, add one example variable name that follows the rule (do not include invalid examples here).
+
+28. **Error collection notebook section**
+
+1) Create a new Markdown heading: “Common Variable Naming Errors”.
+2) Under it, list each of the invalid examples shown in the PDF.
+3) For each one, run it in its own code cell (one invalid statement per cell).
+4) Under each code cell, add a Markdown cell where you copy the exact error text produced.
+
+29. **Mini audit of your notebook variables**
+
+1) Choose any 6 variables you created in earlier tasks.
+2) For each variable, display its value and type.
+3) Reassign three of them to different values (change at least one to a different type).
+4) Display their updated value and type.
+
+30. **Replicate the PDF sequence (advanced replication task)**
+
+1) In order, recreate the same variable creation and reassignment flow shown in the PDF for: `can`, `pizza`, `samosa`, `ice_cream`, `total`, `above_thresold`.
+2) After each major step, display the value and the type exactly at the points where the PDF checks them.
+3) Ensure you include at least one direct display (variable alone in a cell) and at least one `print()` display.
+
+---
+
+If you upload the next PDF (or the next topic page), I can generate another combined mixed set in the same style.
